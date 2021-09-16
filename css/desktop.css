@@ -62,3 +62,22 @@ header .container h2 {
     width: 40%;
 }
 /* estilos a la sección features*/
+/* estilos a la sección quote*/
+blockquote {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+blockquote p {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+}
+blockquote cite {
+    font-size: 16px;
+    font-style: italic;
+}
+blockquote cite::before {
+    content: '-';
+    margin-right: 5px;
+}
+/* estilos a la sección quote*/
