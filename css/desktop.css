@@ -51,3 +51,13 @@ header .container h2 {
 .btn:hover {
     background: #468468;
 }
+/* Estilos del contenido al header*/
+/* estilos a la sección features*/
+.feature {
+    width: 32%;
+    display: inline-block;
+    font-size: 16px;
+}
+.feature img {
+    width: 40%;
+}
