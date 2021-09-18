@@ -114,8 +114,9 @@ footer li a:hover {
 /* media queries*/
 @media screen and (max-width: 480px) {
     .btn {
-        display: block;
         font-size: 18px;
+        display: block;
+        width: 100%;
     }
     h1 {
         font-size: 32px;
